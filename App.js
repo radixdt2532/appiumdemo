@@ -6,7 +6,7 @@ const App = () => {
     <View>
       <TouchableOpacity
         accessibilityLabel = "alertButton"
-        style={{width:100,height:100,backgroundColor :"aqua"}}
+        style={{width:100,height:100,backgroundColor :"red"}}
         onPress = {() => alert("Hello")}
       >
 <Text>Hello</Text>
