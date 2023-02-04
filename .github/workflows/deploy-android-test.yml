@@ -2,8 +2,8 @@ name: Deploy-Android-TEST
 
 on:
   push:
-  branches:
-    - master
+    branches:
+      - master
 
 env:
   APP_CENTER_TOKEN: ${{ secrets.APP_CENTER_TOKEN_APPIUMDEMO_ANDROID_TEST  }}
